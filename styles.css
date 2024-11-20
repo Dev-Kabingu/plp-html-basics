@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,.9),rgba(0,0,0,.7),rgb(241, 224, 123),#fbe0e0);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px 30px;
+
+}
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+button{
+    padding: 12px 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 100px;
+    color: white;
+}
+.text{
+    width: 400px;
+}
+h1{
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    font-size: 42px;
+}
+p{
+    margin-bottom: 12px;
+    line-height: 24px;
+}
+
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #2b2b2b;
+    
+}
+.header-article {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.article-content h2 {
+    font-size: 32px;
+    margin-top: 20px;
+    
+}
+.article-content h3 {
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+.article-content ul li {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+}
+.article-content ul li strong {
+    color: #333;
+}
+footer{
+    background: linear-gradient(to right, rgba(0,0,0,.9),rgba(0,0,0,.7),rgb(241, 224, 123),#fbe0e0);
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    color: white;
+    margin-top: 12px;
+    font-weight: bold;
+}
